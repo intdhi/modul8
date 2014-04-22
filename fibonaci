@@ -20,7 +20,7 @@ public class JavaApplication1 {
         Scanner inputp = new Scanner(System.in);
         int ab= inputp.nextInt();
         for (int i=1; i<=ab;i++){
-            System.out.print(a+" ");
+            System.out.print(a+" ");  //anggap saja output terbalik :D
             a=a+b;
             b=a-b;
         }
